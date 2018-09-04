@@ -1,0 +1,7 @@
+<aura:component >
+	<!-- Define the component as handler for the event -->
+    <!-- Name - name of the registered event, event - name of the event, action - Name of the action which handles the event fired   -->
+    <aura:handler name="compEvt" event="c:CompEvent" action="{!c.handleEvent}" />    
+    <!-- Refer notifier -->
+    <c:NotifierCmp />
+</aura:component>

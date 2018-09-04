@@ -1,0 +1,6 @@
+<aura:component >
+    <!-- Regist for the event name. name - name of the registered event. Type - Name of the event -->
+    <aura:registerEvent name="compEvt" type="c:CompEvent" />
+    <!-- Create a button so that the notifier can inform handler by clicking it-->
+    <lightning:button name="Trigger Button" label="Trigger" onclick="{!c.handleEvent}"/>
+</aura:component>
