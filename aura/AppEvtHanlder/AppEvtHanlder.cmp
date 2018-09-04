@@ -1,0 +1,6 @@
+<aura:component >
+	<!-- Define the component as handler for the event -->
+    <!-- Event and Action are the mandatory parameters -->
+    <aura:handler event="c.AppEvent" action="{!c.handleEvent}"/>
+    <!-- Need not to refer notifier - Those are independent -->
+</aura:component>

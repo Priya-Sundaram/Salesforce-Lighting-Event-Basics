@@ -1,0 +1,6 @@
+<aura:component >
+	<!-- Register for the event -->
+    <aura:registerEvent name="appEvt" type="c:AppEvent" />
+    <!-- perform user event to notify handlers-->
+    <lightning:button label="Event Trigger" onclick="{!c.handleEvent}"/>
+</aura:component>

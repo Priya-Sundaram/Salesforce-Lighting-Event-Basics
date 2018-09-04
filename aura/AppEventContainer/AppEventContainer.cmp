@@ -1,0 +1,4 @@
+<aura:component >
+    <c:AppEvtNotifier />
+    <c:AppEvtHanlder />
+</aura:component>
